@@ -1,0 +1,19 @@
+name: web25-page
+version: 0.1.0
+
+authors:
+  - Felix Resch <felix.resch@web25.org>
+  
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  slang:
+    github: jeromegn/slang
+
+targets:
+  web25-page:
+    main: src/web25-page.cr
+
+crystal: 0.22.0
+
+license: MIT
